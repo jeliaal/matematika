@@ -1,0 +1,311 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+@font-face{
+	src: url(fonts/gl-dumbadze-garnituri-semi-bold.ttf);
+	font-family: 'gl-dumbadze-garnituri-semi-bold' noserif	
+}
+#piroba_section{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+}
+h1{
+    font-family: 'gl-dumbadze-garnituri-semi-bold' noserif;	
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 50px;
+	color: aqua;
+}
+.davalebis_piroba{
+	width: 800px;
+	height: 200px;
+	display: flex;
+	align-self: center;
+	color: blueviolet;
+}
+.piroba_list{
+	position: absolute;
+	left: 200px;
+	list-style: circle;
+	color: crimson;
+}
+li{
+	width: 600px;
+}
+div{
+	background-color: black;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+.martkutxedi{
+   position: absolute;
+   left: 13%;
+   top: 500px;
+   height: 873px;
+   width: 972px;
+   border: 3px burlywood solid;
+   background-color: greenyellow;
+}
+.martkutxedi img{
+	position: absolute;
+	left: 243px;
+	top: 160px;
+}
+.ficris_sigrdze{
+	position: absolute;
+	width: 30px;
+	left: 12px;
+	top: -23px;
+	font-weight: 400px;
+}
+.chishkris_sigrdze{
+	position: absolute;
+	width: 30px;
+	top: -23px;
+	left: 455px;
+}
+.bodzi1{
+	position: absolute;
+	left: -5px;
+	top: -6px;
+}
+.bodzi2{
+	position: absolute;
+	left: 99px;
+	top: -6px;
+}
+.bodzi3{
+	position: absolute;
+	left: 198px;
+	top: -6px;
+}
+.bodzi4{
+	position: absolute;
+	left: 297px;
+	top: -6px;;
+}
+.bodzi5{
+	position: absolute;
+	left: 396px;
+	top: -6px;
+	z-index: 1;
+}
+.gate1{
+	position: absolute;
+	width: 180px;
+	height: 4px;
+	top: -4px;
+	left: 401px;
+	border: 1px solid brown;
+	background-color: brown;
+	z-index: 0;
+}
+.bodzi6{
+	position: absolute;
+	left: 576px;
+	top: -6px;
+	z-index: 1;
+}
+.bodzi7{
+	position: absolute;
+	left: 675px;
+	top: -6px;
+}
+.bodzi8{
+	position: absolute;
+	left: 774px;
+	top: -6px;
+}
+.bodzi9{
+	position: absolute;
+	left: 873px;
+	top: -6px;
+}
+.bodzi10{
+	position: absolute;
+	right: -5px;
+	top: -6px;
+}
+.bodzi11{
+	position: absolute;
+    right: -6px;
+	top: 99px;
+}
+.bodzi12{
+	position: absolute;
+    right: -6px;
+	top: 188px;
+}
+.bodzi13{
+	position: absolute;
+    right: -6px;
+	top: 287px;
+}
+.bodzi14{
+	position: absolute;
+    right: -6px;
+	top: 386px;
+}
+.bodzi15{
+	position: absolute;
+    right: -6px;
+	top: 485px;
+	z-index: 1;
+}
+.gate2{
+	position: absolute;
+	width: 180px;
+	height: 4px;
+	right: -92px;
+	top: 575px;
+	border: 1px solid brown;
+	background-color: brown;
+	z-index: 0;
+	transform: rotate(-90deg);
+}
+.bodzi16{
+	position: absolute;
+    top: 660px;
+	right: -6px;
+}
+.bodzi17{
+	position: absolute;
+    top: 759px;
+	right: -6px;
+}
+.bodzi18{
+	position: absolute;
+    right: -5px;
+	bottom: -6px;
+}
+.bodzi19{
+	position: absolute;
+	right: 99px;
+    bottom: -6px;
+}
+.bodzi20{
+	position: absolute;
+    bottom: -6px;
+	right: 188px;
+}
+.bodzi21{
+	position: absolute;
+    bottom: -6px;
+	right: 287px;
+}
+.bodzi22{
+	position: absolute;
+    bottom: -6px;
+	right: 386px; 
+	z-index: 1;
+}
+.bodzi23{
+	position: absolute;
+    bottom: -6px;
+	right: 566px
+}
+.gate3{
+	position: absolute;
+	width: 180px;
+	height: 4px;
+	bottom: -4px;
+	right: 386px;
+	border: 1px solid brown;
+	background-color: brown;
+	z-index: 0;
+}
+.bodzi24{
+	position: absolute;
+    bottom: -6px;
+	right: 665px
+}
+.bodzi25{
+	position: absolute;
+    bottom: -6px;
+	right: 764px
+}
+.bodzi26{
+	position: absolute;
+    bottom: -6px;
+	right: 863px;
+}
+.bodzi27{
+	position: absolute;
+    bottom: -6px;
+	left: -6px;
+}
+.bodzi28{
+	position: absolute;
+    left: -6px;
+	bottom: 99px;
+}
+.bodzi29{
+	position: absolute;
+    left: -6px;
+	bottom: 188px;
+}
+.bodzi30{
+	position: absolute;
+    left: -6px;
+	bottom: 287px;
+}
+.bodzi31{
+	position: absolute;
+    left: -6px;
+	bottom: 386px;
+}
+.bodzi32{
+	position: absolute;
+    left: -6px;
+	bottom: 485px;
+	z-index: 1;
+}
+.gate4{
+	position: absolute;
+	width: 180px;
+	height: 4px;
+	bottom: 572px;
+	left: -92px;
+	border: 1px solid brown;
+	background-color: brown;
+	z-index: 0;
+	transform: rotate(90deg);
+}
+.bodzi33{
+	position: absolute;
+    left: -6px;
+	bottom: 662px;
+}
+.bodzi34{
+	position: absolute;
+    left: -6px;
+	bottom: 761px;
+}
+.pasuxebi{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top: 1100px;
+}
+.pasuxebi_list{
+	position: absolute;
+	list-style: circle;
+	color: crimson;
+}
+.avtori{
+	position: absolute;
+	left: 350px;
+	display: inline-block;
+	top: 230px;
+}
+.madloba{
+	position: absolute;
+	left: 396px;
+	display: inline-block;
+	top: 255px;
+}
